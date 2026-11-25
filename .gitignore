@@ -1,0 +1,10 @@
+# Carpeta de compilación para despliegue (se regenera)
+publicar/
+
+# Configuración local de Claude Code
+.claude/
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store
