@@ -40,7 +40,17 @@ Las imágenes actuales son fotos de referencia de Unsplash. Para usar las tuyas:
 4. **Antes / después:** pon dos fotos reales del mismo proyecto en la sección `#beforeAfter` de `index.html`
    y elimina la línea `filter: ...` de `.ba__before` en `css/styles.css` (hoy simula el "antes").
 
-## 4. Ver en local
+## 4. Publicar cambios
+
+El repositorio está conectado a Vercel: cada `git push` a la rama `main` publica automáticamente en https://www.estelapintura.cl (tarda 1–2 minutos).
+
+```bash
+git add -A
+git commit -m "Describe el cambio"
+git push
+```
+
+## 5. Ver en local
 
 ```bash
 powershell -ExecutionPolicy Bypass -File serve.ps1
