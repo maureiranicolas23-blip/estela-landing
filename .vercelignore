@@ -1,0 +1,6 @@
+# Archivos del repositorio que no deben publicarse en el sitio
+README.md
+serve.ps1
+redes/
+.gitignore
+.vercelignore
